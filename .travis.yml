@@ -8,6 +8,6 @@ deploy:
   provider: heroku
   api_key:
     secure: 381dda18-1272-41fb-94bd-00671a434238
-  app: cd-showcase
+  app: greeting-service
   on:
     repo: rosh-sandbox/greeting-service
