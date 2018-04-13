@@ -3,11 +3,10 @@ jdk: oraclejdk8
 sudo: false
 before_install:
   - chmod +x mvnw
-script: ./mvnw clean install
+script:
+  - ./mvnw clean install -DskipTests
+  - bash <(curl -s https://codecov.io/bash)
 deploy:
   provider: heroku
-  api_key:
-    secure: 381dda18-1272-41fb-94bd-00671a434238
-  app: greeting-service
-  on:
-    repo: rosh-sandbox/greeting-service
+  api_key: 381dda18-1272-41fb-94bd-00671a434238
+  app: my-greeting-service
