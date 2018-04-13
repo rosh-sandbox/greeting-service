@@ -1,0 +1,12 @@
+<Settings Xmlns="Http://Maven.Apache.Org/SETTINGS/1.0.0"
+          Xmlns:Xsi="Http://Www.W3.Org/2001/XMLSchema-Instance"
+          Xsi:SchemaLocation="Http://Maven.Apache.Org/SETTINGS/1.0.0
+                      Http://Maven.Apache.Org/Xsd/Settings-1.0.0.Xsd">
+    <Servers>
+        <server>
+            <id>bintray-rosh-sandbox-sandbox-maven-repo</id>
+            <username>roshancd</username>
+            <password>${env.BINTRAY_API_KEY}</password>
+        </server>
+    </Servers>
+</Settings>

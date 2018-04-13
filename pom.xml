@@ -85,14 +85,14 @@
 
 	<distributionManagement>
 		<repository>
-			<id>syft-nexus</id>
-			<name>Syft Nexus</name>
-			<url>https://mymavenrepo.com/repo/J28NUbMEEEmyP94gn0hK/</url>
+			<id>bintray-rosh-sandbox-sandbox-maven-repo</id>
+			<name>rosh-sandbox-sandbox-maven-repo</name>
+			<url>https://api.bintray.com/maven/rosh-sandbox/sandbox-maven-repo/greeting-service/;publish=1</url>
 		</repository>
 		<snapshotRepository>
-			<id>syft-nexus</id>
-			<name>Syft Nexus</name>
-			<url>https://mymavenrepo.com/repo/J28NUbMEEEmyP94gn0hK/</url>
+			<id>bintray-rosh-sandbox-sandbox-maven-repo</id>
+			<name>rosh-sandbox-sandbox-maven-repo</name>
+			<url>https://api.bintray.com/maven/rosh-sandbox/sandbox-maven-repo/greeting-service/;publish=1</url>
 		</snapshotRepository>
 	</distributionManagement>
 
