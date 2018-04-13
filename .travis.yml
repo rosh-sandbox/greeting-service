@@ -10,3 +10,5 @@ deploy:
   provider: heroku
   api_key: 381dda18-1272-41fb-94bd-00671a434238
   app: my-greeting-service
+notifications:
+  webhooks: https://api.loader.io/v2/tests/38be44f41ce18511c6fbcfb5c1e52529/token/d9e60afe166a3f7b19b2d03e2b621dac/run
