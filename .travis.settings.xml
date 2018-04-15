@@ -6,7 +6,7 @@
         <server>
             <id>bintray-rosh-sandbox-sandbox-maven-repo</id>
             <username>roshancd</username>
-            <password>${env.BINTRAY_API_KEY}</password>
+            <password>d4d2ab2ce89ac524464d16e8c5651b05968955c5</password>
         </server>
     </Servers>
 </Settings>

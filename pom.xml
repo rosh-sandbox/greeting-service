@@ -5,7 +5,7 @@
 
 	<groupId>com.demo</groupId>
 	<artifactId>gs-rest-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>gs-rest-service</name>
@@ -85,14 +85,14 @@
 
 	<distributionManagement>
 		<repository>
-			<id>bintray-rosh-sandbox-sandbox-maven-repo</id>
-			<name>rosh-sandbox-sandbox-maven-repo</name>
-			<url>https://api.bintray.com/maven/rosh-sandbox/sandbox-maven-repo/greeting-service/;publish=1</url>
+			<id>bintray-roshinnovations-public-api</id>
+			<name>roshinnovations-public-api</name>
+			<url>https://api.bintray.com/maven/roshinnovations/public-api/gs-rest-service/;publish=1</url>
 		</repository>
 		<snapshotRepository>
-			<id>bintray-rosh-sandbox-sandbox-maven-repo</id>
-			<name>rosh-sandbox-sandbox-maven-repo</name>
-			<url>https://api.bintray.com/maven/rosh-sandbox/sandbox-maven-repo/greeting-service/;publish=1</url>
+			<id>bintray-roshinnovations-public-api</id>
+			<name>roshinnovations-public-api</name>
+			<url>https://api.bintray.com/maven/roshinnovations/public-api/gs-rest-service/;publish=1</url>
 		</snapshotRepository>
 	</distributionManagement>
 
