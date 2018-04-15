@@ -4,7 +4,7 @@
                       Http://Maven.Apache.Org/Xsd/Settings-1.0.0.Xsd">
     <Servers>
         <server>
-            <id>bintray-rosh-sandbox-sandbox-maven-repo</id>
+            <id>bintray-roshinnovations-public-api</id>
             <username>roshancd</username>
             <password>d4d2ab2ce89ac524464d16e8c5651b05968955c5</password>
         </server>
