@@ -89,11 +89,6 @@
 			<name>roshinnovations-public-api</name>
 			<url>https://api.bintray.com/maven/roshinnovations/public-api/gs-rest-service/;publish=1</url>
 		</repository>
-		<snapshotRepository>
-			<id>bintray-roshinnovations-public-api</id>
-			<name>roshinnovations-public-api</name>
-			<url>https://api.bintray.com/maven/roshinnovations/public-api/gs-rest-service/;publish=1</url>
-		</snapshotRepository>
 	</distributionManagement>
 
 </project>
